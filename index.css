@@ -1,0 +1,160 @@
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 0;
+   padding: 0;
+   color: rgb(169, 169, 169);
+}
+
+.head-div {
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   border-bottom: 1px;
+   box-shadow: 2px 2px 8px rgb(165, 165, 165, 0.7);
+   padding-top: 4px;
+   padding-bottom: 4px;
+}
+
+.head-txt {
+   font-size: 60px;
+   font-weight: bold;
+   color: rgb(122, 122, 122);
+}
+
+.order-div {
+   display: flex;
+}
+
+.img-main-div {
+   display: inline-block;
+}
+
+.main-txt {
+   display: inline-block;
+}
+
+.img-main {
+   height: 180px;
+}
+
+.orderid-div {
+   margin-top: 5px;
+   margin-bottom: 5px;
+   border-bottom: solid;
+   border-width: 1px;
+   border-color: rgb(165, 165, 165, 0.4);
+   font-size: 24px;
+   color: rgba(255, 160, 136, 0.952);
+}
+
+.orderid-txt,
+.ordername-txt,
+.description-txt,
+.seller-txt,
+.ini-price-txt {
+   margin-left: 12px;
+}
+
+.order-div {
+   flex: 1;
+   margin-top: 8px;
+}
+
+.ordername-txt {
+   font-size: 48px;
+   color: rgb(71, 71, 71);
+}
+
+.description-txt {
+   font-size: 20px;
+}
+
+.seller-div {
+   margin-top: 8px;
+}
+
+.ini-price-div {
+   margin-top: 8px;
+   color: rgb(85, 168, 245);
+   font-size: 18px;
+   font-weight: bold;
+}
+
+.spacer {
+   background-color: rgba(199, 199, 199, 0.5);
+   height: 6px;
+}
+
+.sub-head-div {
+   margin-top: 5px;
+   padding-bottom: 5px;
+   border-bottom: solid;
+   border-width: 1px;
+   border-color: rgb(165, 165, 165, 0.4);
+   font-size: 18px;
+}
+
+.sub-head-txt {
+   margin-left: 12px;
+}
+
+.updates-div-1 {
+   display: flex;
+   flex-direction: row;
+   align-items: baseline;
+   margin-top: 8px;
+   margin-bottom: 8px;
+   color: rgb(71, 71, 71);
+}
+
+.tick-updates {
+   width: 20px;
+   margin-right: 10px;
+   margin-top: 2px;
+}
+
+.updates-div-1,
+.ship-detail-txt {
+   margin-left: 12px;
+}
+
+.ship-txt,
+.pname {
+   color: rgb(71, 71, 71);
+   margin: 0;
+}
+
+.pname {
+   margin-top: 5px;
+   font-size: 20px;
+   margin-bottom: 5px;
+}
+
+.ship-txt {
+   margin-bottom: 5px;
+}
+
+.price-lists-div {
+   color: rgb(71, 71, 71);
+   margin-left: 12px;
+}
+
+.price-lists {
+}
+
+.list {
+}
+
+.price {
+}
+
+.total {
+   margin-top: 5px;
+   margin-bottom: 5px;
+   border-top: solid;
+   border-bottom: solid;
+   border-width: 1px;
+   border-color: rgb(165, 165, 165, 0.4);
+   color: rgb(85, 168, 245);
+   margin-left: 12px;
+}
