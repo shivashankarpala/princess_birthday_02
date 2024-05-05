@@ -39,7 +39,7 @@ main {
    display: inline-block;
    position: absolute;
    right: 0px;
-   top: 50px;
+   top: 70px;
 }
 
 .main-txt {
@@ -47,7 +47,7 @@ main {
 }
 
 .img-main {
-   height: 155px;
+   height: 140px;
 }
 
 .orderid-div {
