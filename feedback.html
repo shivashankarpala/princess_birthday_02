@@ -1,0 +1,191 @@
+<html>
+   <head>
+      <title>Order Placed</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <style>
+         html {
+            height: -webkit-fill-available;
+         }
+
+         body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            height: -webkit-fill-available;
+            color: rgb(169, 169, 169);
+         }
+
+         main {
+            flex: 1;
+            overflow: scroll;
+         }
+
+         .main-div {
+            padding: -8px;
+            box-shadow: 2px 2px 8px rgb(165, 165, 165, 0.6);
+         }
+
+         .head-div {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            box-shadow: 2px 2px 8px rgb(165, 165, 165, 0.7);
+            padding-top: 4px;
+            padding-bottom: 4px;
+         }
+
+         .head-txt {
+            font-size: 24px;
+            color: rgb(122, 122, 122);
+         }
+
+         .order-div {
+            margin-bottom: 5px;
+         }
+
+         .orderid-div {
+            margin-top: 5px;
+            margin-bottom: 5px;
+            border-bottom: solid;
+            border-width: 1px;
+            border-color: rgb(165, 165, 165, 0.4);
+            font-size: 14px;
+         }
+
+         .orderid-txt {
+            margin-left: 18px;
+            color: rgba(224, 156, 139, 0.9);
+         }
+
+         .orderid-txt,
+         .order-details,
+         .placed-txt {
+            margin-left: 24px;
+            display: inline-block;
+         }
+
+         .order-txt {
+            font-size: 24px;
+            color: rgb(71, 71, 71);
+         }
+
+         .ordername-txt {
+            font-size: 18px;
+         }
+
+         .orderitem-txt {
+            font-size: 14px;
+         }
+
+         .placed-div {
+            font-size: 20px;
+            color: rgb(71, 71, 71);
+         }
+
+         .spacer {
+            background-color: rgba(199, 199, 199, 0.5);
+            height: 6px;
+         }
+
+         .sub-head-div {
+            margin-top: 5px;
+            padding-bottom: 5px;
+            border-bottom: solid;
+            border-width: 1px;
+            border-color: rgb(165, 165, 165, 0.4);
+            font-size: 18px;
+         }
+
+         .sub-head-txt {
+            margin-left: 20px;
+            color: rgb(85, 168, 245);
+         }
+
+         .img-main-div {
+            display: inline-block;
+            position: absolute;
+            right: 20px;
+            top: 60px;
+         }
+
+         .img-main {
+            height: 90px;
+         }
+
+         .ship-detail-txt {
+            margin-top: 12px;
+            padding-bottom: 12px;
+            border-bottom: solid;
+            border-width: 1px;
+            border-color: rgb(165, 165, 165, 0.4);
+         }
+
+         .ship-detail-txt {
+            margin-left: 24px;
+         }
+
+         .ship-txt,
+         .pname {
+            color: rgb(71, 71, 71);
+            margin: 0;
+         }
+
+         .ship-txt {
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-size: 14px;
+         }
+
+         .ship-txt-1 {
+            font-size: 10px;
+            color: rgb(169, 169, 169);
+         }
+      </style>
+   </head>
+   <body>
+      <main>
+         <div class="main-cont">
+            <div class="head-div">
+               <span class="head-txt"> Order Confirmed </span>
+            </div>
+
+            <div class="order-div">
+               <div class="orderid-div">
+                  <span class="orderid-txt">order id: 09022007-18042006</span>
+               </div>
+
+               <div class="order-details">
+                  <span class="order-txt">Your Package Containing<br /></span>
+                  <span class="ordername-txt">ShivaShankar P<br /></span>
+                  <span class="orderitem-txt">Only 1 Item<br /></span>
+               </div>
+
+               <div class="placed-div">
+                  <div class="placed-txt">Successfully Placed</div>
+               </div>
+
+               <div class="img-main-div">
+                  <img class="img-main" src="husky.jpg" />
+               </div>
+            </div>
+
+            <div class="spacer"></div>
+
+            <div class="sub-head-div">
+               <span class="sub-head-txt">Thank You for working with us </span>
+            </div>
+
+            <div class="ship-detail-txt">
+               <div class="ship-detail">
+                  <span class="ship-txt">
+                     Consider the package as yours; <br />
+                     We will deliver it as soon as possible.<br />
+                     <span class="ship-txt-1"> Patience is key</span>
+                  </span>
+               </div>
+            </div>
+         </div>
+      </main>
+   </body>
+</html>
