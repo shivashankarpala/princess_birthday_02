@@ -39,6 +39,7 @@ main {
    display: inline-block;
    position: absolute;
    right: 0px;
+   top: 50px;
 }
 
 .main-txt {
