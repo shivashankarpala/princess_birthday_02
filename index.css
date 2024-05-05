@@ -1,8 +1,19 @@
+html {
+   height: -webkit-fill-available;
+}
+
 body {
    font-family: Arial, Helvetica, sans-serif;
    margin: 0;
    padding: 0;
+   height: 100vh;
+   height: -webkit-fill-available;
    color: rgb(169, 169, 169);
+}
+
+main {
+   flex: 1;
+   overflow: scroll;
 }
 
 .head-div {
@@ -17,7 +28,6 @@ body {
 
 .head-txt {
    font-size: 60px;
-   font-weight: bold;
    color: rgb(122, 122, 122);
 }
 
@@ -47,16 +57,19 @@ body {
    border-width: 1px;
    border-color: rgb(165, 165, 165, 0.4);
    font-size: 24px;
+}
+
+.orderid-txt {
+   margin-left: 20px;
    color: rgba(224, 156, 139, 0.9);
 }
 
-.orderid-txt,
 .ordername-txt,
 .description-txt,
 .seller-txt,
 .ini-price-txt,
 .total-txt {
-   margin-left: 12px;
+   margin-left: 24px;
 }
 
 .order-div {
@@ -99,7 +112,7 @@ body {
 }
 
 .sub-head-txt {
-   margin-left: 12px;
+   margin-left: 20px;
 }
 
 .updates-div-1 {
@@ -119,7 +132,12 @@ body {
 
 .updates-div-1,
 .ship-detail-txt {
-   margin-left: 12px;
+   margin-left: 24px;
+}
+
+.ship-detail-txt {
+   margin-top: 12px;
+   margin-bottom: 12px;
 }
 
 .ship-txt,
@@ -138,9 +156,14 @@ body {
    margin-bottom: 5px;
 }
 
+.price-lists-cont {
+   margin-top: 12px;
+   margin-bottom: 12px;
+}
+
 .price-lists-div {
    color: rgb(71, 71, 71);
-   margin-left: 12px;
+   margin-left: 24px;
 }
 
 .price,
@@ -172,8 +195,7 @@ body {
 }
 .total-price {
    position: absolute;
-   right: 0px;
-   margin-right: 12px;
+   right: 20px;
 }
 
 .confirm-div {
