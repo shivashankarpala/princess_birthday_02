@@ -46,7 +46,7 @@ main {
 }
 
 .img-main {
-   height: 170px;
+   height: 155px;
 }
 
 .orderid-div {
@@ -59,7 +59,7 @@ main {
 }
 
 .orderid-txt {
-   margin-left: 18px;
+   margin-left: 8px;
    color: rgba(224, 156, 139, 0.9);
 }
 
@@ -68,7 +68,7 @@ main {
 .seller-txt,
 .ini-price-txt,
 .total-txt {
-   margin-left: 24px;
+   margin-left: 12px;
 }
 
 .order-div {
@@ -87,6 +87,10 @@ main {
 
 .seller-div {
    margin-top: 8px;
+}
+
+.seller-txt {
+   font-size: 14px;
 }
 
 .ini-price-div {
@@ -111,7 +115,7 @@ main {
 }
 
 .sub-head-txt {
-   margin-left: 20px;
+   margin-left: 10px;
 }
 
 .updates-div-1 {
@@ -135,7 +139,7 @@ main {
 
 .updates-div-1,
 .ship-detail-txt {
-   margin-left: 24px;
+   margin-left: 12px;
 }
 
 .ship-detail-txt {
@@ -217,6 +221,7 @@ main {
    border-radius: 5px;
    width: 180px;
    height: 40px;
+   margin-top: 5px;
    margin-bottom: 5px;
 }
 
